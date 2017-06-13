@@ -1,0 +1,119 @@
+body {
+  background-color: #eaded3;
+}
+.calculator {
+  width: 18rem;
+  height: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  border-radius: 0.5rem 0.5rem 0.5rem 3rem;
+  box-shadow: -0.1rem 0.3rem 1.4rem #2F4F4F;
+  background-color: #2F4F4F;
+}
+.screen {
+  width: 100%;
+  height: 7rem;
+  /*background-color: #FFA07A;*/
+  background-color:#FFA07A;
+  padding: 0.1rem;
+  border-right: 0.3rem solid #cc8061;
+  border-top: 0.3rem solid #cc8061;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.screen1 {
+  height: 3rem;
+  margin-top: 1rem;
+  font-size: 2.2rem;
+  text-align: right;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  color: #2F4F4F;
+  overflow: hidden;
+  transition: all 0.6s ease;
+}
+.screen2 {
+  margin-top: 0.1rem;
+  font-size: 1.3rem;
+  text-align: right;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  color: #587272;
+  overflow: hidden;
+  transition: all 0.6s ease;
+}
+.showRes1 {
+  height: 0;
+  font-size: 0;
+}
+.showRes2 {
+  font-size: 2.2rem;
+  height: 3rem;
+  color: #2F4F4F;
+}
+.button-list{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  border-right: 0.3rem solid #203737;
+  border-radius: 0 0 0.5rem 3rem;
+}
+.button{
+  height: 3.6rem;
+  width: 4.4rem;
+  flex-basis: auto;
+}
+.btn-classic {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ededed;
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.15rem;
+  background-color: #2F4F4F;
+  border: none;
+}
+.btn-classic:focus {
+  outline: none;
+  padding: 1rem;
+  background-color: #253f3f;
+  color: #E9967A;
+  border: 0.01rem solid #1c2f2f;
+  margin-top: 0.2rem;
+}
+#dot {
+  font-weight: bold;
+}
+#num0{
+  border-radius: 0 0 0 3rem;
+}
+.button0 {
+  width: 8.82rem !important;
+}
+
+.opt-equal {
+  position: absolute;
+  width: 4.78rem;
+  height: 3.59rem;
+  border-right: 0.3rem solid #a44949;
+  background-color: #CD5C5C;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.15rem;
+  color: #ededed;
+  border-radius: 0 0 0.5rem 0;
+}
+.opt-equal:focus {
+  border-right: 0.1rem solid #a44949;;
+  outline: none;
+  padding: 1rem;
+  margin-top: 0.2rem;
+}
